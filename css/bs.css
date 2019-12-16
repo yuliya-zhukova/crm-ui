@@ -1,0 +1,10 @@
+.form-group,
+.form-check,
+.btn {
+    margin: 20px 20px;
+}
+
+.form-group,
+.form-check {
+    width: 200px;
+}

@@ -1,0 +1,57 @@
+body {
+    background-color: black;
+    padding: 40px;
+}
+
+.instIcon {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 25%;
+    border: 12px solid white;
+}
+
+.instIcon::before,
+.instIcon::after {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+}
+
+/* Inner big circle */
+.instIcon::before {
+    width: 50%;
+    height: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 12px solid white;
+}
+
+.instIcon::after {
+    width: 15%;
+    height: 15%;
+    top: 10%;
+    left: 75%;
+    background-color: white;
+}
+
+.instIcon_small {
+    width: 100px;
+    height: 100px;
+}
+
+.instIcon_small,
+.instIcon_small::before {
+    border-width: 9px;
+}
+
+.instIcon_big {
+    width: 400px;
+    height: 400px;
+}
+
+.instIcon_big,
+.instIcon_big::before {
+    border-width: 20px;
+}

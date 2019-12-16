@@ -1,0 +1,109 @@
+body {
+    background-color: white;
+}
+
+.volume-icon {
+    width: 270px;
+    height: 210px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-image: linear-gradient(pink, rgb(120, 120, 250));
+}
+
+.volume-icon-big {
+    width: 900px;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-image: linear-gradient(pink, rgb(120, 120, 250));
+}
+
+.volume-icon-light {
+    width: 270px;
+    height: 210px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: black;
+}
+
+.per20,
+.per40,
+.per60,
+.per80,
+.per100{
+    position: relative;
+    width: 16%;
+    background-color: rgb(86, 4, 153);
+    opacity: 0.8;
+}
+
+.per20 {
+    height: 20%;
+} 
+
+.per40 {
+    height: 40%;
+} 
+
+.per60 {
+    height: 60%;
+} 
+
+.per80 {
+    height: 80%;
+} 
+
+.per100 {
+    height: 100%;
+}
+
+.volume-icon-80per .per100 {
+    opacity: 0.2;
+}
+
+.volume-icon-60per .per100,
+.volume-icon-60per .per80 {
+    opacity: 0.2;
+}
+
+.volume-icon-40per .per100,
+.volume-icon-40per .per80,
+.volume-icon-40per .per60 {
+    opacity: 0.2;
+}
+
+.volume-icon-20per .per100,
+.volume-icon-20per .per80,
+.volume-icon-20per .per60,
+.volume-icon-20per .per40 {
+    opacity: 0.2;
+}
+
+.volume-icon-0per .per20,
+.volume-icon-0per .per40,
+.volume-icon-0per .per60,
+.volume-icon-0per .per80,
+.volume-icon-0per .per100 {
+    opacity: 0.2;
+}
+
+.percent-up {
+    margin: 200px;
+    width: 100px;
+    height: 25px;
+    border-top-left-radius: 25% 100%;
+    border-top-right-radius: 25% 100%;
+    background-color: rgb(11, 172, 46);
+}
+
+.percent-down {
+    margin: 200px;
+    width: 100px;
+    height: 25px;
+    border-bottom-left-radius: 25% 100%;
+    border-bottom-right-radius: 25% 100%;
+    background-color: rgb(11, 172, 46);
+}
