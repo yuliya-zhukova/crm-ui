@@ -25,7 +25,7 @@
     height: 8px;
     border: 1px solid #fff;
     border-radius: 50%;
-    background-color: red;
+    background-color: rgb(255, 0, 0);
 }  
 
 .header-search .icon {

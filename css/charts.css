@@ -30,7 +30,7 @@
 .round.blue {
     width: 5px;
     height: 5px;
-    border-color: #109CF1;
+    border-color: #109cf1;
 }
 
 .chart-graph {
@@ -55,8 +55,8 @@
     margin: 40px;
     text-align: center;
     font-size: 60px;
-    color: #2ED47A;
-    border: 6px solid #2ED47A;
+    color: #2ed47a;
+    border: 6px solid #2ed47a;
     border-radius: 50%;
     overflow: auto;
 }
@@ -82,13 +82,13 @@
 }
 
 .legend-activ .round {
-    border-color: #FFB946;
+    border-color: #ffb946;
 }
 
 .legend-complete .round {
-    border-color: #2ED47A;
+    border-color: #2ed47a;
 }
 
 .legend-ended .round {
-    border-color: #F7685B;
+    border-color: #f7685b;
 }
