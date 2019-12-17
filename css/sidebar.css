@@ -1,0 +1,130 @@
+.left-column {
+    display: flex;
+    flex-direction: column;
+    z-index: 100;
+    min-width: 256px;
+    max-width: 256px;
+    min-height: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 10px 0 rgba(53, 49, 45, 0.25);
+}
+
+.saas-kit {
+    height: 60px;
+    padding-left: 20px;
+    color: #109CF1;
+    font-style: bold;
+    box-sizing: border-box;
+    border-bottom: 1px solid #EBEFF2;
+}
+
+.user {
+    display: flex;
+    height: 60px;
+    padding: 10px;
+}
+
+.avatar {
+    width: 60px;
+    height: 60px;
+    background-image: url('../img/profile-photo.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.user-data {
+    display: flex;
+    flex-direction: column; 
+    padding-top: 5px;
+}
+
+.user-name {
+    height: 20px;
+    padding-top: 10px;
+    color: #192A3E;
+    font-size: 15px;
+}
+
+.user-email {
+    height: 20px;
+    color: #90A0B7;
+    font-size: 10px;
+}
+
+.menu,
+.settings {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+.menu {
+    border-bottom: 1px solid #EBEFF2;
+}
+
+.settings {
+    justify-content: space-between;
+    height: 100%;
+}
+
+.item-menu {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.item {
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+.item-sidebar .item,
+.search {
+    color: #90A0B7;
+    font-size: 12px;
+}
+
+.item-dashboard .icon {
+    bacKground-image: url('../img/dashboard-active.svg');
+}
+
+.item-dashboard .item {
+    color: #109CF1;
+}
+
+.item-tasks .icon {
+    bacKground-image: url('../img/tasks.svg');
+}
+
+.item-email .icon {
+    bacKground-image: url('../img/email.svg');
+}
+
+.item-settings .icon {
+    bacKground-image: url('../img/settings.svg');
+}
+
+.item-contacts .icon {
+    bacKground-image: url('../img/contacts.svg');
+}
+
+.item-chat .icon {
+    bacKground-image: url('../img/chat.svg');
+}
+
+.item-deals .icon {
+    bacKground-image: url('../img/deals.svg');
+}
+
+.item-sidebar .icon {
+    bacKground-image: url('../img/subtract.svg');
+}
