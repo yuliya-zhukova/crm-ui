@@ -1,6 +1,7 @@
 .left-column {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     z-index: 100;
     min-width: 256px;
     max-width: 256px;
