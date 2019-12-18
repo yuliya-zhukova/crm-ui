@@ -1,6 +1,7 @@
 .charts {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     min-width: 140px;
     width: 50%;
     min-height: 100%;
@@ -9,16 +10,12 @@
 
 .chart {
     height: 344px;
-    margin-bottom: 36px;
+    /* margin-bottom: 36px; */
     background-color: #fff;
     box-shadow: 0 4px 4px rgba(119, 102, 85, 0.25);
     border-radius: 8px;
     overflow: auto;
 } 
-
-.chart:last-child {
-    margin-bottom: 0;
-}
 
 .chart-graph {
     height: 300px;

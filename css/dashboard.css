@@ -147,12 +147,11 @@
 }
 
 .edit-pen,
-.trash-box,
-.hand {
+.trash-box {
     width: 10px;
     height: 10px;
     margin-right: 10px;
-    background-image: url('../img/edit.svg');
+    background-image: url('/img/edit.svg');
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -240,6 +239,7 @@
     display: flex;
     flex-direction: column;
     width: 100%;
+    max-height: 718px;
     margin: 36px;
     background-color: #fff;
     box-shadow: 0 4px 4px rgba(119, 102, 85, 0.25);

@@ -1,5 +1,7 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html lang="">
+<!--.no-js используется для того, чтобы проверить поддерживает ли браузер javascript, 
+если поддерживает, класс .no-js заменяют на класс .js -->
 <head>
   <meta charset="utf-8">
   <link rel="stylesheet" href="css/main.css">
@@ -9,18 +11,17 @@
   <link rel="stylesheet" href="css/charts.css">
 </head>
 <body>
-  
   <div class="work-site">
     <div class="left-column">
       <div class="saas-kit">
-        <p>SaaS Kit</p>
+        SaaS Kit
       </div>
       <div class="user">
         <div class="avatar"></div>
         <div class="user-data">
           <div class="user-name">Sierra Ferguson</div>
           <div class="user-email">s.ferguson@gmail.com</div>
-          </div>
+        </div>
       </div>
       <div class="menu">
         <div class="item-menu item-dashboard">
@@ -69,15 +70,13 @@
           <div class="red-point"></div>
         </div>
       </div>
-      
       <div class="content">
         <div class="tasks-box">
-          
           <div class="tasks-head">
             <div class="chart-head">
-              <div class="chart-name">8 tast completed out of 10</div>
+              <div class="chart-name">8 task completed out of 10</div>
               <div class="show-period">
-                <p class="show">Show:</p>
+                <div class="show">Show:</div>
                 <div class="period">
                   This week
                 </div>
@@ -87,7 +86,7 @@
               <div class=complete-percent></div>
             </div>
             <div class="date">
-              <p>23 December, Sunday</p>
+              23 December, Sunday
             </div>
             <div class="calendar">
               <div class="day">
@@ -120,8 +119,6 @@
               </div>
             </div>
           </div>
-          
-             
           <div class="tasks">
             <div class="task">
               <div class="task-head">
@@ -137,7 +134,7 @@
               <div class="task-content">
                 <div class="task-admin">
                   <div class="admin-avatar">
-                    <img src="../img/photo-g-fields.svg">
+                    <img src="img/photo-g-fields.svg">
                   </div>
                   <div class="admin-name">George Fields</div>
                 </div>
@@ -164,7 +161,13 @@
               <div class="task-content">
                 <div class="task-admin">
                   <div class="admin-avatar">
-                    <img src="../img/photo-r-moore.svg">
+                    <img src="img/photo-r-moore.svg">
+                    <!-- 
+                      img/a.png - folder with pictures and html are on the same level 
+                      /img/a.png - 
+                      ./img/a.png - 
+                      ../img/a.png - folder with pictures and folder with html are on the same level
+                    -->
                   </div>
                   <div class="admin-name">Rebecca Moore</div>
                 </div>
@@ -191,7 +194,7 @@
               <div class="task-content">
                 <div class="task-admin">
                   <div class="admin-avatar">
-                    <img src="../img/photo-l-stroud.svg">
+                    <img src="img/photo-l-stroud.svg">
                   </div>
                   <div class="admin-name">Lindsey Stroud</div>
                 </div>
@@ -209,15 +212,12 @@
             <div class="show-more">Show more</div>
           </div>
         </div>
-        
-        
-        
         <div class="charts">
           <div class="chart">
             <div class="chart-head">
               <div class="chart-name">Deals</div>
               <div class="show-period">
-                Show: 
+                <div class="show">Show:</div> 
                 <div class="period">
                   Monthly
                 </div>
@@ -233,7 +233,7 @@
             <div class="chart-head">
               <div class="chart-name">Tasks</div>
               <div class="show-period">
-                <p class="show">Show:</p>
+                <div class="show">Show:</div>
                 <div class="period">
                   This month
                 </div>
@@ -241,10 +241,7 @@
             </div>
             <div class="diagramm">
               <div class="chart-round">60%</div>
-              <!-- <div class="chart-round">
-                <img src="img/z.svg" alt="">
-              </div> -->
-              <div class="legend">
+                <div class="legend">
                 <div class="legend-activ">
                   <div class="round"></div>
                    Activ
@@ -264,6 +261,5 @@
       </div>
     </div>
   </div>
-
 </body>
 </html>

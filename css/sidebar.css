@@ -11,8 +11,8 @@
 
 .saas-kit {
     height: 60px;
-    padding-left: 20px;
-    color: #109CF1;
+    padding: 16px 20px;
+    color: #109cf1;
     box-sizing: border-box;
     border-bottom: 1px solid #ebeff2;
 }
