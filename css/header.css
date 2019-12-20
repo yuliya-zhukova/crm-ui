@@ -7,6 +7,27 @@
     padding: 0 40px;
 }
 
+.search {
+    border: 1px solid transparent;
+    margin-left: 10px;
+    padding: 3px  10px;
+    box-shadow: 0 0 4px 0 rgba(119, 102, 85, 0.25);
+    border-radius: 3px;
+}
+
+.search::placeholder {
+    color: #90a0b7;
+    font-size: 12px;
+}
+
+input:focus {
+    border: 1px solid transparent;
+}
+
+.header-search:hover .search {
+    cursor: pointer;
+}
+
 .reminder {
     position: relative;
     width: 20px;
