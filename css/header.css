@@ -10,9 +10,10 @@
 .search {
     border: 1px solid transparent;
     margin-left: 10px;
-    padding: 3px  10px;
+    padding: 3px  30px;
     box-shadow: 0 0 4px 0 rgba(119, 102, 85, 0.25);
     border-radius: 3px;
+    color: #434f61;
 }
 
 .search::placeholder {
@@ -20,8 +21,11 @@
     font-size: 12px;
 }
 
-input:focus {
-    border: 1px solid transparent;
+.search {
+    background-image: url('../img/search.svg');   
+    background-repeat: no-repeat;
+    background-position: 4px;  
+    outline: none; 
 }
 
 .header-search:hover .search {
