@@ -31,3 +31,7 @@
 .header-search .icon {
     bacKground-image: url('../img/search.svg');
 }
+
+.reminder:hover {
+    cursor: pointer;
+}
