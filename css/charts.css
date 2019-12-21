@@ -18,7 +18,7 @@
 } 
 
 .chart-graph {
-    height: 300px;
+    height: 220px;
     background-image: url('../img/deals-graphic.svg');
     background-repeat: no-repeat;
     background-position: center;
@@ -45,41 +45,43 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-right: 50px;
 }
 
-.closed-deals .round,
-.legend .round {
-    width: 5px;
-    height: 5px;
-}
-
-.legend-activ,
-.legend-complete,
-.legend-ended,
-.closed-deals {
-    margin-right: 40px;
-    height: 30px;
+.legend-item {
+    position: relative;
+    margin-bottom: 20px;
     font-size: 10px;
     color: #707683;
 }
 
-.closed-deals {
-    margin-left: 20px;
-    height: 40px;
+.legend-item.closed-deals {
+    margin-left: 40px;
+    height: 30px;
 }
 
-.legend-activ .round {
+.legend-item::before {
+    content: "";
+    position: absolute;
+    left: -20px;
+    width: 5px;
+    height: 5px;
+    border: 2px solid;
+    border-radius: 50%;
+}
+
+.legend-item.closed-deals::before {
+    border-color: #109cf1;
+}
+
+.legend-item.tasks-activ::before {
     border-color: #ffb946;
 }
 
-.legend-complete .round {
+.legend-item.tasks-complete::before {
     border-color: #2ed47a;
 }
 
-.legend-ended .round {
+.legend-item.tasks-ended::before {
     border-color: #f7685b;
-}
-
-.closed-deals .round {
-    border-color: #109cf1;
 }
