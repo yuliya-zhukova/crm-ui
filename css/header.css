@@ -30,6 +30,7 @@
 
 .header-search:hover .search {
     cursor: pointer;
+    box-shadow: 0 0 8px 0 rgba(119, 102, 85, 0.25);
 }
 
 .reminder {
