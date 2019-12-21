@@ -198,14 +198,17 @@
     color: #4c5862;
 }
 
-.day-date-today {
+.day-date {
     width: 20px;
     height: 20px;
     text-align: center;
     line-height: 20px;
+    border-radius: 50%;
+}
+
+.day-date.today {
     color: #fff;
     background-color: #109cf1;
-    border-radius: 50%;
 }
 
 .tomorrow {
