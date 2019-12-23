@@ -52,7 +52,8 @@
 }
 
 .menu,
-.settings {
+.settings,
+.toggle {
     display: flex;
     flex-direction: column;
     padding: 20px;
@@ -65,7 +66,7 @@
 }
 
 .settings {
-    justify-content: space-between;
+    justify-content: flex-start;
     height: 100%;
 }
 
