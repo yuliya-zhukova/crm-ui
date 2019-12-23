@@ -217,20 +217,30 @@
 
 .show {
     color: #6a707e;
+    margin-right: 10px;
 }
 
 .period {
     color: #109cf1;
-    margin-left: 2px;
+    outline: none;
+    border: transparent;
 }
 
-.period::after {
+select:focus,
+select:hover,
+option:hover,
+option:focus {
+  outline: none;
+  border: transparent;
+}
+
+/* .period::after {
     content: "";
     margin-left: 5px;
     border-width: 3px 3px 0 3px;
     border-style: solid;
     border-color: #6a707e transparent;
-}
+} */
 
 .content {
     display: flex;

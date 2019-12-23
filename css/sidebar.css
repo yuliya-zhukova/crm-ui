@@ -76,12 +76,15 @@
 }
 
 .item-menu::before {
+    content: "";
     position: absolute;
     left: -35px;
+    width: 20px;
+    height: 20px;
 }
 
 .item-menu.item-dashboard::before {
-    content: url('../img/dashboard-active.svg');
+    background-image: url('../img/dashboard-active.svg');
 }
 
 .item-menu.item-tasks::before {
